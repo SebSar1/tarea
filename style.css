@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Romanesco&display=swap');
+
+
+
+body {
+    margin: 0;
+}
+#navbar{
+    height: 70px;
+    padding-left: 70px;
+    padding-right: 15px;
+    background-color: #A3A656;
+    display: flex;
+    border: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-list-izq{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: normal;
+    
+}
+.navbar-list-izq a{
+    color: black;
+    text-decoration: none;
+}
+.navbar-list-izq a:hover{
+    color: #FFFF00
+;
+}
+
+#navbar-der{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.navbar-list-der{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    font-family: "Inter";
+    font-weight: normal; 
+    font-size: 14px;
+    
+  
+}
+.navbar-list-der a{
+    color: black;
+    text-decoration: none;
+}
+.navbar-list-der a:hover{
+    color: #FFFF00
+;
+}
+
+#seccion{
+    margin: 0;
+    padding: 0;
+}
+#panel-principal{
+    margin-top: 0;
+    background-image: url("material_tarea/images/main.png");
+    background-size: cover;
+    min-height: 680px;
+}
+
+#panel-principal h1{
+    margin: 0;
+    padding-left: 210px;
+    padding-top: 160px;
+    font-family: "Romanesco";
+    font-size: 96px;
+    font-weight: normal;
+
+
+}
+#panel-principal h2{
+    padding-left: 210px;
+    font-family: "Titulo2";
+    font-size: 32px;
+    font-weight: 600; /* semibold */
+
+}
+
+
+
+#reserva{
+    display: flex;
+    height: 100px;
+    background-color: #F2F6F6;
+    align-items: center;
+    justify-content: center;
+    
+}
+#reserva-list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: normal;
+}
+#reserva-list input{
+    border: none;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 15px 15px 15px 15px;  
+    font-family: 'Inter';
+    font-size: 16px; /* Miniatura */
+
+}
+#reserva-list input::placeholder{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: normal;
+    color: #9E9A9A;
+    
+}
+
+
+#tarjetas{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 134px;
+    
+}
+
+.card-header{
+    background-color: #A3A656;
+    color: white;
+    border-radius: 15px 15px 0 0;
+    height: 70px;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-descripcion{
+    font-family: "Inter";
+    font-weight: normal;
+    font-size: 16px;
+}
+.card-footer{
+    display: flex;
+    gap: 140px;
+}
+.card-precio{
+    font-family: "Inter";
+    font-weight: bold;
+    font-size: 32px;
+}
+.card-boton{
+    color: white;
+    font-family: "Inter";
+    background-color:#A3A656 ;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 35px;
+    border: none;
+    width: 150px;
+    height: 45px;
+}
+.card-boton:hover{
+    background-color: #384001;
+}
+
+#panel-socios{
+    height: 770px;
+    background-color: #F2F6F6;
+}
+#titulo-socios{
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 32px;
+
+}
+
+#tarjetas-socios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+
+}
+
+
+.tarjetas-opcion-socios{
+ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tarjetas-boton{
+    color: white;
+    font-family: "Inter";
+    background-color:#A3A656 ;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 35px;
+    border: none;
+    width: 300px;
+    height: 45px;
+}
+.tarjetas-nombre{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 32px;
+}
+.tarjetas-imagen-socio {
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 255px;            
+    height: 255px;           
+    border-radius: 50%;      
+    background-color: white; 
+    border: 11px solid #384001; 
+    display: flex;            
+    justify-content: center;  
+    align-items: center;  
+        
+}
+.tarjetas-boton:hover{
+    background-color: #384001;
+}
+
+
+
+footer{
+    display: flex;
+    gap: 200px;
+    background-color: #384001;
+    height: 97px;
+}
+.footer-list1{
+    padding-left: 70px;
+    display: flex;
+    list-style: none;
+    gap: 70px;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: normal;
+    align-items: center;    
+}
+.footer-list2{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: normal;
+    align-items: center;    
+}
+#footer-list-izq{
+    display: flex;
+    list-style: none;
+}
+#footer-list-izq a{
+    color: #A3A656;
+    text-decoration: none;
+}
+#footer-list-der{
+    display: flex;
+    list-style: none;
+    
+}
+#footer-list-der a{
+    color: #A3A656;
+    text-decoration: none;
+}
+
+
+
+
