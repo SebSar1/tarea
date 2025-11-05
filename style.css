@@ -293,6 +293,12 @@ footer{
     text-decoration: none;
 }
 
+#footer-list-der a:hover{
+    color:#FFFF00;
+}
+#footer-list-izq a:hover{
+    color:#FFFF00;
+}
 
 
 
